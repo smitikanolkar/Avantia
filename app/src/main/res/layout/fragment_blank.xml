@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="610dp"
+    android:paddingLeft="120dp"
+    android:paddingTop="40dp"
+    android:layout_gravity="top"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="end"
+        android:background="@color/babypink"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@color/transparent">
+
+            <Space
+                android:layout_width="240dp"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_gravity="right"
+                android:background="@color/transparent"
+                android:paddingTop="10dp"
+                android:src="@drawable/cancel" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/home_icon"
+            android:paddingLeft="10dp"
+            android:text="  Home"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey">
+
+        </View>
+
+        <TextView
+            android:id="@+id/cource"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_menu_book_24"
+            android:paddingLeft="10dp"
+            android:text="  Cources"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey">
+
+        </View>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_info_outline_24"
+            android:paddingLeft="10dp"
+            android:text="  About"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey">
+
+        </View>
+
+        <TextView
+            android:id="@+id/blog"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_assignment_24"
+            android:paddingLeft="10dp"
+            android:text="  Blog"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey">
+
+        </View>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_contact_support_24"
+            android:paddingLeft="10dp"
+            android:text="  Contact"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey">
+
+        </View>
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/baseline_call_24"
+            android:paddingLeft="10dp"
+            android:text="  Call Now"
+            android:textColor="@color/darkredtxt"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey">
+
+        </View>
+
+
+    </LinearLayout>
+</FrameLayout>

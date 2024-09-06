@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ourCourses">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarr"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="@color/blackie"
+            android:scrollbars="none"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:src="@drawable/logo" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signinCourses"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="70dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@color/darkredtxt"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingTop="32dp"
+            android:text="Our courses"
+            android:textColor="@color/darkredtxt"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/homepage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Home"
+                android:textColor="@color/darkredtxt"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="|"
+                android:textColor="@color/darkredtxt"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aboutpage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="About us"
+                android:textColor="@color/darkredtxt"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree1"
+            android:layout_width="339dp"
+            android:layout_height="675dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured2">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Cybersecurity"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Cybersecurity Beginner"
+                    android:textColor="@color/samered"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Start your journey into the world of cybersecurity with our beginner course. Learn the fundamentals of protecting digital assets, understanding common threats, and securing networks. This course is designed to give you practical, hands-on experience to build a solid foundation in cybersecurity.                                    "
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree2"
+            android:layout_width="339dp"
+            android:layout_height="695dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured1">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Cybersecurity"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Cybersecurity Engineer Level 1"
+                    android:textColor="@color/samered"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Dive deeper into cybersecurity with advanced tools and techniques. This course builds on the basics, focusing on real-world scenarios, threat analysis, and defensive strategies. Gain the skills necessary to tackle more complex security challenges and protect critical systems."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree3"
+            android:layout_width="339dp"
+            android:layout_height="675dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured2">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Cybersecurity"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Cybersecurity Expert Level 2"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Master cybersecurity with our expert-level course. Engage in comprehensive, hands-on training with advanced hacking tools and methodologies. Upon completion, benefit from a free internship opportunity and certification, equipping you with industry-ready expertise."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy3"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree4"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Blockchain"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Blockchain Development Beginner"
+                    android:textColor="@color/samered"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Discover the basics of blockchain technology with our beginner course. Learn how blockchain works, explore its applications, and get hands-on experience in creating simple decentralized applications. Perfect for those new to the field"
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy4"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree6"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Blockchain"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Blockchain Expert Level 1
+"
+                    android:textColor="@color/samered"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Take your blockchain skills to the next level. This course covers smart contracts, advanced DApp development, and blockchain security. Gain practical experience with real-world projects and deepen your understanding of blockchain ecosystems."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree7"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Blockchain"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Blockchain Development Level 2"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Become an expert in blockchain development with our advanced course. Delve into complex smart contracts, scalable blockchain solutions, and industry best practices. Complete the course with a free internship and certification to jumpstart your blockchain career."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy6"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree8"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Web"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Web Development Beginner"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Start building your web development skills with our beginner course. Learn the essentials of HTML, CSS, and JavaScript, and create your first websites from scratch. This course is perfect for anyone looking to enter the web development field."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy7"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree9"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Web"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Web Development Expert Level 1"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Enhance your web development expertise by exploring advanced JavaScript frameworks, responsive design, and backend integration. This course provides practical training in building dynamic and interactive websites, preparing you for more complex projects."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy8"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree10"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Web"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Web Development Level 2"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Achieve mastery in web development with our advanced course. Focus on full-stack development, including front-end, back-end, and database management. Gain hands-on experience with real-world projects, and complete the course with a free internship and certification."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy9"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree11"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Digital Marketing"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Digital Marketing Beginner"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Begin your journey into digital marketing with our beginner course. Learn the fundamentals of SEO, social media marketing, and online advertising. This course provides a solid foundation for anyone looking to build a career in digital marketing."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy10"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree12"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Digital Marketing"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Digital Marketing Expert Level 1"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Take your digital marketing skills to the next level by diving into advanced strategies for content marketing, email campaigns, and PPC. This course emphasizes hands-on projects, equipping you with the tools needed to run successful digital marketing campaigns."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy11"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/cardview_readmoree13"
+            android:layout_width="339dp"
+            android:layout_height="655dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cardu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/featured3">
+
+                </ImageView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Digital Marketing"
+                    android:textColor="@color/blackie"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Avanteia Certified Digital Marketing Expert Level 2"
+                    android:textColor="@color/samered"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:text="Master digital marketing with our expert-level course. Focus on advanced techniques, including analytics, conversion optimization, and omni-channel strategies. Upon completion, you'll receive a free internship opportunity, helping you to apply your skills in real-world scenarios."
+                    android:textColor="@color/blackie"
+                    android:textSize="20dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enquiryy12"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttboloouuu"
+                    android:text="Enroll Now"
+                    android:textColor="@color/blackie" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:layout_width="248dp"
+            android:layout_height="100dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/logo">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="50dp"
+            android:shadowColor="#781A1A"
+            android:text="Transform your career with Avanteia’s expert-led IT training. Enroll in our cutting-edge courses and gain the skills to excel in today’s digital world."
+            android:textColor="@color/darkredtxt"
+            android:textColorLink="#E91E63"
+            android:textSize="21sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/instagram2"
+                android:layout_width="73dp"
+                android:layout_height="50dp"
+                android:paddingLeft="30dp"
+                android:src="@drawable/instagram"/>
+
+            <ImageView
+                android:id="@+id/facebook2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/facebook"/>
+
+            <ImageView
+                android:id="@+id/twitter2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/twitter"/>
+
+            <ImageView
+                android:id="@+id/linkedin2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/linkedin"/>
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Use-full Links"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/homee3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Home"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/servicess3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Services"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/coursess3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Courses"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/projectss3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Projects"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="45dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="OUR BRANCHES"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="20dp"
+                android:shadowColor="#781A1A"
+                android:text="Pernem, Shop No. 322/C, on Ground Floor Surbanwada Goa 403512"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingBottom="20dp"
+                android:shadowColor="#781A1A"
+                android:text="Mapusa, Shop No. 6, Shri Maharudra Saunsthan Sajjangad Sankul, Dattawadi Goa 403507"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:shadowColor="#781A1A"
+                android:text="MARGAO,Mapari Audi Plaza, office No. 9, First Floor, behind David and Co, Erasmo Carvalho Street. Margao 403601"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="CONTACT US"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Phone: +91 93074 02403"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="Email: info@avanteia.com"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="#781A1A"
+                android:text="    Copyright ©2024 All rights reserved | This template is made with ❤️ by Avanteia"
+                android:textColor="@color/darkredtxt"
+                android:textColorLink="#E91E63"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+  </LinearLayout>

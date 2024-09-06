@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956901199702",
+    "project_id": "enqiry-database",
+    "storage_bucket": "enqiry-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956901199702:android:f4dde830042bd333f690f7",
+        "android_client_info": {
+          "package_name": "com.example.avantia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjKU-79CVsRb-E3k__CrNMwhSDUQOK9U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
